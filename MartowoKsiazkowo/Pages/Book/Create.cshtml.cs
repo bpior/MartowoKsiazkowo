@@ -21,8 +21,8 @@ namespace MartowoKsiazkowo.Pages.Book
 
         public IActionResult OnGet()
         {
-        ViewData["AuthorId"] = new SelectList(_context.Author, "AuthorId", "AuthorId");
-        ViewData["BookInfoId"] = new SelectList(_context.BookInfo, "BookInfoId", "BookInfoId");
+        ViewData["AuthorId"] = new SelectList(_context.Author, "FullAutorName", "AuthorId");
+        ViewData["BookInfoId"] = new SelectList(_context.BookInfo, "Gatunek", "BookInfoId");
             return Page();
         }
 
@@ -38,6 +38,8 @@ namespace MartowoKsiazkowo.Pages.Book
                 return Page();
             }
 
+          var entry = _context.Add(new Encje.Book());
+          entry.CurrentValues.SetValues(Book);
             _context.Books.Add(Book);
             await _context.SaveChangesAsync();
 

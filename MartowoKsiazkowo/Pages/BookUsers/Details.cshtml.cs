@@ -28,8 +28,14 @@ namespace MartowoKsiazkowo.Pages.BookUsers
                 return NotFound();
             }
 
-            var bookuser = await _context.BookUser.FirstOrDefaultAsync(m => m.BookUserId == id);
-            if (bookuser == null)
+           // var bookuser = await _context.BookUser.FirstOrDefaultAsync(m => m.BookUserId == id);
+            
+           var bookuser = await _context.BookUser
+               .Include(b => b.Book)
+               .Include(b => b.User)
+               .FirstOrDefaultAsync(m => m.BookUserId == id);
+           
+           if (bookuser == null)
             {
                 return NotFound();
             }
