@@ -6,8 +6,8 @@ namespace MartowoKsiazkowo.Pages;
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+private readonly IWebHostEnvironment _environment;
+    public IndexModel(ILogger<IndexModel> logger, IWebHostEnvironment environment)
     {
         _logger = logger;
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {}
+    "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {}
   },
   "projects": {
-    "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {
+    "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
+        "projectUniqueName": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
         "projectName": "MartowoKsiazkowo",
-        "projectPath": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
-        "packagesPath": "/Users/maku/.nuget/packages/",
-        "outputPath": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/",
+        "projectPath": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
+        "packagesPath": "/home/bp/.nuget/packages/",
+        "outputPath": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/maku/.nuget/NuGet/NuGet.Config"
+          "/home/bp/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -73,6 +73,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.9, )"
             }
           },
           "imports": [
@@ -93,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.120/RuntimeIdentifierGraph.json"
         }
       }
     }

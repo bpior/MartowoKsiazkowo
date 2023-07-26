@@ -8,3 +8,26 @@
     <h1 class="display-4">Marty strona do wspomagania zarządzania domową biblioteką</h1>
     
 </div>
+
+<br />
+<form>
+    <div class="col-lg-12"> qr code string</div>
+    <br/>
+    <div class="col-lg-12">
+        <input type="text" name="QRCodeString" id="QRCodeString" class="form-control"/>
+    </div>
+    <br/>
+    <br/>
+    <div class="col-lg-12">
+        <input type="submit" value="Generate qrcode" class="btn btn-primary"/>
+    </div>
+    <br/>
+    <br/>
+</form>
+
+@if(!string.IsNullOrEmpty(ViewData.URL))
+{
+    <div class="col-lg-12">
+        <img src="@ViewData["URL"]" />
+    </div>
+}
