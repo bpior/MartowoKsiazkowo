@@ -598,3 +598,4 @@
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.pdb
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.genruntimeconfig.cache
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/ref/MartowoKsiazkowo.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/zxing.dll

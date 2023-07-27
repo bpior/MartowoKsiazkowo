@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3V/pGGrzDDPZF8r3V1KSnaFUaN32C2A9dbkTZy96pp0=",
+  "Hash": "TgZnlQkM4n0hD5373xfWStnpQxX9K+rYSGVCGd/GNMc=",
   "Source": "MartowoKsiazkowo",
   "BasePath": "_content/MartowoKsiazkowo",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/projectbundle/MartowoKsiazkowo.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/111.png",
+      "SourceId": "MartowoKsiazkowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/",
+      "BasePath": "_content/MartowoKsiazkowo",
+      "RelativePath": "111.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/111.png"
     },
     {
       "Identity": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/css/site.css",

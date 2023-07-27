@@ -1,0 +1,26 @@
+@page
+
+@model MartowoKsiazkowo.Pages.Skaner
+
+@*@{
+    Layout = ;
+}*@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    <form method="post">
+        <input type="text" asp-for="QRCodeText" />
+        <button type="submit">Generate QR Code</button>
+    </form>
+    @if (ViewData["QRCodeImage"] != null)
+    {
+        <img src="@ViewData["QRCodeImage"]" alt="QR Code" />
+    }
+</body>
+</html>
