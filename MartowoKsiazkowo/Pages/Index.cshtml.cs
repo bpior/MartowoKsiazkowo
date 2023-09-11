@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using ZXing;
 using ZXing.QrCode;
 using ZXing.Common;
+using Color = System.Drawing.Color;
+
 
 namespace MartowoKsiazkowo.Pages;
 

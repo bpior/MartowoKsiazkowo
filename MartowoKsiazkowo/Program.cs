@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MartowoKsiazkowo.Data;
+using MartowoKsiazkowo.Encje;
+using MartowoKsiazkowo.Serwis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,20 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 
+builder.Services.AddHttpClient("ISBN",
+    client => { client.BaseAddress = new Uri("http://www.googleapis.com/books/v1/volumes?q="); });
+
+builder.Services.AddHttpClient("book",
+    HttpClient =>
+    {
+        HttpClient.BaseAddress = new Uri("http://www.googleapis.com/books/v1/volumes?");
+    });
+builder.Services.AddHttpClient();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+
+
+builder.Services.AddScoped<IzapiszSerwis, ZapiszSerwis>();
 
 
 builder.Services.AddRazorPages();
@@ -52,6 +68,8 @@ else
 
 
 app.UseHttpsRedirection();
+
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -60,5 +78,11 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.MapControllers();
+
+
+
+
 
 app.Run();

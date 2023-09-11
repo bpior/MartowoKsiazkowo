@@ -43,16 +43,16 @@ public class Skaner : PageModel
             // Generuj kod QR na podstawie wprowadzonego tekstu
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
             QRCodeData qrCodeData = qrGenerator.CreateQrCode(QRCodeText, QRCodeGenerator.ECCLevel.Q);
-            QRCode qrCode = new QRCode(qrCodeData);
-            BitmapByteQRCode qrCodeImage = new BitmapByteQRCode(qrCode);
-            byte[] qrCodeBytes = qrCodeImage.GetGraphic(20);
+         //   QRCode qrCode = new QRCode(qrCodeData);
+         //   BitmapByteQRCode qrCodeImage = new BitmapByteQRCode(qrCode);
+        //    byte[] qrCodeBytes = qrCodeImage.GetGraphic(20);
 
             // Przekonwertuj dane obrazu na format ImageSharp
-            using (var image = Image.Load<Rgba32>(qrCodeBytes, out var format))
+          //  using (var image = Image.Load<Rgba32>(qrCodeBytes, out var format))
             {
                 // Zapisz obraz jako plik PNG
                 var filePath = Path.Combine("wwwroot", "QRCode.png");
-                image.Save(filePath);
+          //      image.Save(filePath);
             }
 
             // Przekieruj użytkownika do strony z wygenerowanym kodem QR

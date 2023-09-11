@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--
+    <script src="../wwwroot/js/html5-qrcode.min.js"></script>
+-->
+
+<!--
+    <script src="https://rawgit.com/mebjas/html5-qrcode/master/dist/html5-qrcode.min.js"></script>
+-->
+
+    <script src="./js/html5-qrcode.min.js"></script>
+    
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    .result{
+        background-color: green;
+        color:#fff;
+        padding:20px;
+    }
+    .row{
+        display:flex;
+    }
+</style>
+
+
+<div class="row">
+    <div class="col">
+        <div style="width:500px;" id="reader"></div>
+    </div>
+    <div class="col" style="padding:30px;">
+        <h4>SCAN RESULT</h4>
+        <div id="result">Result Here</div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function onScanSuccess(qrCodeMessage) {
+        document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+    }
+
+    url = 'https://localhost:5001/api/qrCode';
+    function post (url, data) {
+        return fetch(url, {
+            body: JSON.stringify(data),
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: {
+                'content-type': 'application/json'
+            },
+            method: 'POST',
+            mode: 'cors',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+        })
+            .then(response => response.json())
+            .then(qrCodeMessage => {
+                console.log('Success:', qrCodeMessage);
+                document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+            })
+    }
+    
+    
+    function onScanError(errorMessage) {
+        //handle scan error
+    }
+
+    var html5QrcodeScanner = new Html5QrcodeScanner(
+        "reader", { fps: 10, qrbox: 250 });
+    html5QrcodeScanner.render(onScanSuccess, onScanError);
+
+</script>
+
+
+</body>
+</html>

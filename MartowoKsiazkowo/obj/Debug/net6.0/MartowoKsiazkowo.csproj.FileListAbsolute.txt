@@ -5,7 +5,6 @@
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/MartowoKsiazkowo.deps.json
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/MartowoKsiazkowo.runtimeconfig.json
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/MartowoKsiazkowo.dll
-/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/ref/MartowoKsiazkowo.dll
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/MartowoKsiazkowo.pdb
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/Humanizer.dll
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -599,3 +598,14 @@
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.genruntimeconfig.cache
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/ref/MartowoKsiazkowo.dll
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/zxing.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/Microsoft.IO.RecyclableMemoryStream.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/QRCoder.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/SixLabors.ImageSharp.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/SixLabors.ImageSharp.Web.dll
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.sourcelink.json
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.MartowoKsiazkowo.Microsoft.AspNetCore.StaticWebAssets.props
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.build.MartowoKsiazkowo.props
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MartowoKsiazkowo.props
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MartowoKsiazkowo.props
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets.pack.json
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/refint/MartowoKsiazkowo.dll
