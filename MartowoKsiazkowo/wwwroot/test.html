@@ -43,10 +43,29 @@
 <script type="text/javascript">
     function onScanSuccess(qrCodeMessage) {
         document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
-    }
+    }//.then(fetchBookDataByISBN(qrCodeMessage));
 
-    url = 'https://localhost:5001/api/qrCode';
-    function post (url, data) {
+   /* url = 'https://localhost:7112/isbn/nr4/';
+    
+    function get (url) {
+        return fetch(url, {
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: {
+                'content-type': 'application/json'
+            },
+            method: 'GET',
+            mode: 'cors',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+        })
+            .then(response => response.json())
+            .then(qrCodeMessage => {
+                console.log('Success:', qrCodeMessage);
+                document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+            })
+    } */
+    /*function post (url, data) {
         return fetch(url, {
             body: JSON.stringify(data),
             cache: 'no-cache',
@@ -64,17 +83,123 @@
                 console.log('Success:', qrCodeMessage);
                 document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
             })
-    }
+    }*/
+
+
+
+
     
     
     function onScanError(errorMessage) {
         //handle scan error
     }
 
+  
+    // function fetch( ) {
+    //     document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+    // }
+    
     var html5QrcodeScanner = new Html5QrcodeScanner(
         "reader", { fps: 10, qrbox: 250 });
     html5QrcodeScanner.render(onScanSuccess, onScanError);
 
+
+
+    function onScanSuccess(qrCodeMessage) {
+        // Extract the ISBN number from qrCodeMessage
+        const isbn = qrCodeMessage.trim(); // Assuming qrCodeMessage contains only the ISBN
+
+        // Display the ISBN number
+        const resultElement = document.getElementById('result');
+        resultElement.innerHTML = '<span class="result">ISBN: ' + isbn + '</span>';
+
+        // Call the fetchBookDataByISBN function with the extracted ISBN
+        fetchBookDataByISBN(isbn);
+    }
+    
+
+    // Define a function to fetch data based on ISBN number
+    function fetchBookDataByISBN(isbn) {
+        // Replace 'https://localhost:7112' with the actual API endpoint URL
+        const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+
+        // Make a GET request to the API
+        fetch(apiUrl)
+            .then((response) => {
+                // Check if the response status is OK (200)
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                // Parse the JSON response
+                return response.json();
+            })
+            .then((data) => {
+                // Handle the data (e.g., display it or perform other operations)
+                console.log('Book data:', data);
+
+                // Display the data as a result
+                const resultElement = document.getElementById('result');
+                resultElement.innerHTML += '<br><span class="result">Book Data: ' + JSON.stringify(data) + '</span>';
+            })
+            .catch((error) => {
+                // Handle any errors that occurred during the fetch
+                console.error('Fetch error:', error);
+            });
+    }
+
+
+
+
+
+    /*  function fetchBookDataByISBN(isbn) {
+          // Replace 'https://localhost:7112' with the actual API endpoint URL
+          const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+         isbn = document.getElementById('result').value;
+         // isbn = 
+          
+          // Make a GET request to the API
+          return fetch(apiUrl)
+              .then((response) => {
+                  // Check if the response status is OK (200)
+                  if (!response.ok) {
+                      throw new Error(`HTTP error! Status: ${response.status}`);
+                  }
+  
+                  // Parse the JSON response
+                  return response.json();
+              })
+              .then((data) => {
+                  // Handle the data (e.g., display it or perform other operations)
+                  console.log('Book data:', data);
+  
+                  // Return the data for further use
+                  return data;
+              })
+              .catch((error) => {
+                  // Handle any errors that occurred during the fetch
+                  console.error('Fetch error:', error);
+              });
+      }*/
+    
+    
+
+
+    // async function pobierzKot(){
+    //     const nrIsbn = document.getElementById('result').value;
+    //
+    //     cosnt pobierz = fetch(`https://localhost:7112/isbn/nr4/${nrIsbn}`)
+    //
+    //     const kot = await pobierz.json();
+    //     console.log(kot);
+    //
+    //
+    // }
+    
+    
+    
+    
+    
 </script>
 
 
