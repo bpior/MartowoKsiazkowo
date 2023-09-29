@@ -264,13 +264,32 @@ public class IsbnControler : ControllerBase
                    // Mapuj inne właściwości z item.volumeInfo do odpowiednich właściwości w modelu Book
                };
 
-               var autor = new Author
+               /*var autor = new Author
                {
+                   
+                   
                 //   AuthorId = new int(Random(Next(1, 1000))),
                    AutorImie = item.volumeInfo.authors[0],
                     AutorNazwisko = item.volumeInfo.authors[1]
                    
-               };
+               };*/
+               
+               var autor = new Author();
+
+               if (item.volumeInfo.authors != null)
+               {
+                   if (item.volumeInfo.authors.Count >= 1)
+                   {
+                       autor.AutorImie = item.volumeInfo.authors[0];
+                   }
+    
+                   if (item.volumeInfo.authors.Count >= 2)
+                   {
+                       autor.AutorNazwisko = item.volumeInfo.authors[1];
+                   }
+               }
+               
+               
                
                _context.Author.Add(autor);
             //   _context.Books.Add(book);
@@ -290,13 +309,28 @@ public class IsbnControler : ControllerBase
                    // Mapuj inne właściwości z item.volumeInfo do odpowiednich właściwości w modelu Book
                };
 
-               var autor = new Author
+               var autor = new Author();
+
+               if (item.volumeInfo.authors != null)
+               {
+                   if (item.volumeInfo.authors.Count >= 1)
+                   {
+                       autor.AutorImie = item.volumeInfo.authors[0];
+                   }
+    
+                   if (item.volumeInfo.authors.Count >= 2)
+                   {
+                       autor.AutorNazwisko = item.volumeInfo.authors[1];
+                   }
+               }
+               
+               /*var autor = new Author
                {
                    //   AuthorId = new int(Random(Next(1, 1000))),
                    AutorImie = item.volumeInfo.authors[0],
                    AutorNazwisko = item.volumeInfo.authors[1]
                    
-               };
+               };*/
                
                //_context.Author.Add(autor);
                   _context.Books.Add(book);

@@ -3,9 +3,30 @@
 @{
     ViewData["Title"] = "Strona główna";
 }
+<style>
+    .result{
+        background-color: green;
+        color:#fff;
+        padding:20px;
+    }
+    .bookInfo{
+        background-color: powderblue;
+        color:#fff;
+        padding:20px;
+    }
+    .niepowodzenie{
+        background-color: red;
+        color:#fff;
+        padding:20px;
+    }
+    .row{
+        display:flex;
+    }
+</style>
+
 
 <div class="text-center">
-    <h1 class="display-4">Marty strona do wspomagania zarządzania domową biblioteką</h1>
+    <h2 class="display-4">Marty strona do wspomagania zarządzania domową biblioteką</h2>
     
 </div>
 
@@ -13,7 +34,7 @@
 @*
 asp-controller="" asp-action="Index"
 *@
-<form>
+@*<form>
     <div class="col-lg-12"> qr code string</div>
     <br/>
     <div class="col-lg-12">
@@ -26,7 +47,333 @@ asp-controller="" asp-action="Index"
     </div>
     <br/>
     <br/>
-</form>
+</form>*@
+
+ <script src="./js/html5-qrcode.min.js"></script>
+
+<div class="row">
+    <div class="col">
+        <div style="width:500px;" id="reader"></div>
+    </div>
+    <div class="col" style="padding:30px;">
+        <h4>Wynik skanu</h4>
+        <br>
+        <br>
+        <div id="result">Tutaj zniajdzie się nr ISBN</div>
+        <br>
+        <br>
+        <div id="bookInfo">... </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+   /* function onScanSuccess(qrCodeMessage) {
+        document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+      //  document.getElementById('data').innerHTML = '<span class="totalitems">'  +'</span>';
+    }//.then(fetchBookDataByISBN(qrCodeMessage));*/
+
+   /* url = 'https://localhost:7112/isbn/nr4/';
+    
+    function get (url) {
+        return fetch(url, {
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: {
+                'content-type': 'application/json'
+            },
+            method: 'GET',
+            mode: 'cors',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+        })
+            .then(response => response.json())
+            .then(qrCodeMessage => {
+                console.log('Success:', qrCodeMessage);
+                document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+            })
+    } */
+    /*function post (url, data) {
+        return fetch(url, {
+            body: JSON.stringify(data),
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: {
+                'content-type': 'application/json'
+            },
+            method: 'POST',
+            mode: 'cors',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+        })
+            .then(response => response.json())
+            .then(qrCodeMessage => {
+                console.log('Success:', qrCodeMessage);
+                document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+            })
+    }*/
+
+
+
+
+    
+    
+    function onScanError(errorMessage) {
+        //handle scan error
+    }
+
+  
+    // function fetch( ) {
+    //     document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+    // }
+    
+    var html5QrcodeScanner = new Html5QrcodeScanner(
+        "reader", { fps: 10, qrbox: 250 });
+    html5QrcodeScanner.render(onScanSuccess, onScanError);
+
+
+
+    function onScanSuccess(qrCodeMessage) {
+        // Wyodrębnij numer ISBN z qrCodeMessage
+        const isbn = qrCodeMessage.trim(); // Assuming qrCodeMessage contains only the ISBN
+
+        // Display the ISBN number
+        const resultElement = document.getElementById('result');
+        resultElement.innerHTML = '<span class="result">ISBN: ' + isbn + '</span>';
+        
+     /*   const bookInfoElement = document.getElementById('book-info');
+        bookInfoElement.innerHTML = '<span class="boo-info">Zapisało?: ' + isbn + '</span>';*/
+        
+       
+       //pobierz danez api
+        fetchBookDataByISBN(isbn);
+        
+       /* const  wynikzApi = document.getElementById('total').value;
+        // Call the fetchBookDataByISBN function with the extracted ISBN
+        fetchBookDataByISBN(isbn);
+        resultElement.innerHTML = '<span class="niepowodzenie">ISBN: ' + totalItems +  '</span>';
+        //resultElement.innerHTML = '<span class="isbn">??: ' + isbn + '</span>';*/
+        
+    }
+    
+    // Funkcja obsługująca odpowiedź otrzymaną z fetchBookDataByISBN
+    function handleBookData(bookData) {
+        // Wyszukaj element, w którym chcesz wyświetlić dane książki
+        const bookInfoElement = document.getElementById('bookInfo');
+         bookInfoElement.innerHTML = '<span class="bookInfo">ISBN: '  + '</span>';
+        // Sprawdź, czy istnieją dane o książce
+        if (bookData && bookData.items && bookData.items.length > 0) {
+            const volumeInfo = bookData.items[0].volumeInfo;
+            
+            // Wyświetl dane książki na stronie
+            bookInfoElement.innerHTML =  '<h2>' + volumeInfo.title + '</h2>';
+            bookInfoElement.innerHTML += '<p>Autorzy: ' + volumeInfo.authors.join(', ') + '</p>';
+            bookInfoElement.innerHTML += '<p>Data wydania: ' + volumeInfo.publishedDate + '</p>';
+           // bookInfoElement.innerHTML += '<p>ISBN-10: ' + volumeInfo.industryIdentifiers[0].identifier + '</p>';
+           // bookInfoElement.innerHTML += '<p>ISBN-13: ' + volumeInfo.industryIdentifiers[1].identifier + '</p>';
+            
+            // Możesz dodać więcej informacji o książce w taki sam sposób
+            
+            // Możesz również manipulować innymi elementami na stronie, na przykład ukryć elementy niepotrzebne itp.
+        } else {
+            // Jeśli nie znaleziono danych o książce, wyświetl odpowiedni komunikat
+            bookInfoElement.innerHTML = '<p>Nie znaleziono informacji o książce.</p>';
+        }
+    }
+    
+    /*// Funkcja obsługująca odpowiedź otrzymaną z fetchBookDataByISBN
+    function handleBookData(bookData) {
+        // Wyszukaj element, w którym chcesz wyświetlić dane książki
+        const bookInfoElement = document.getElementById('bookInfo');
+        
+        // Wyświetl dane książki na stronie
+        bookInfoElement.innerHTML = '<h2>' + bookData.volumeInfo.title + '</h2>';
+        bookInfoElement.innerHTML += '<p>Autorzy: ' + bookData.volumeInfo.authors.join(', ') + '</p>';
+        
+        // Wyświetl inne informacje o książce, np. data wydania, identyfikatory itp.
+        bookInfoElement.innerHTML += '<p>Data wydania: ' + bookData.volumeInfo.publishedDate + '</p>';
+        bookInfoElement.innerHTML += '<p>ISBN-10: ' + bookData.volumeInfo.industryIdentifiers[0].identifier + '</p>';
+        bookInfoElement.innerHTML += '<p>ISBN-13: ' + bookData.volumeInfo.industryIdentifiers[1].identifier + '</p>';
+        
+        // Możesz dodać więcej informacji o książce w taki sam sposób
+        
+        // Możesz również manipulować innymi elementami na stronie, na przykład ukryć elementy niepotrzebne itp.
+    }*/
+
+  /*  // Funkcja obsługująca odpowiedź otrzymaną z fetchBookDataByISBN
+    function handleBookData(bookData) {
+        // Wyszukaj element, w którym chcesz wyświetlić dane książki
+        const bookInfoElement = document.getElementById('bookInfo');
+        
+        // Wyświetl dane książki na stronie
+        bookInfoElement.innerHTML = '<h2>' + bookData.volumeInfo.title + '</h2>';
+        bookInfoElement.innerHTML += '<p>Autorzy: ' + bookData.volumeInfo.authors.join(', ') + '</p>';
+        // Dodaj więcej pól, które chcesz wyświetlić
+        
+        // Możesz również manipulować innymi elementami na stronie, na przykład ukryć elementy niepotrzebne itp.
+    }*/
+
+    // Zdefiniuj funkcję aby pobrać dane na podstawie numeru ISBN
+    function fetchBookDataByISBN(isbn) {
+        // Replace 'https://localhost:7112' with the actual API endpoint URL
+        const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+        
+         fetch(apiUrl)
+                .then(response => response.json())
+                .then(bookData => {
+                    // Obsłuż otrzymane dane książki
+                    handleBookData(bookData);
+                })
+                .catch(error => {
+                    console.error('Błąd podczas pobierania danych książki: ', error);
+                });
+        
+        
+        
+
+        // Make a GET request to the API
+      /*  fetch(apiUrl)
+            .then((response) => {
+                // Check if the response status is OK (200)
+              
+                  
+               
+               /!* if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }*!/
+
+                // Przeanalizuj odpowiedź JSON -- ok spoko loko
+               /!* return response.json().then(data => {
+                    const totalItems = data.totalItems;
+                    //cosnt title = data.volumeInfo.title;
+                    if (totalItems > 0) {
+                         console.log('Book data:', data);
+                    } 
+                    else  {
+                        console.log('No book found for the ISBN: ' + isbn);
+                    }
+                    return totalItems; 
+                    
+                }) ;*!/
+                
+                return response.json().then(data => {
+                    const totalItems = data.totalItems;
+                    const title = data.volumeInfo.title;
+                
+                    if (totalItems > 0) {
+                        console.log('Book data:', data);
+                    } else {
+                        console.log('No book found for the ISBN: ' + isbn);
+                    }
+                
+                    if (title) {
+                        console.log('Title:', title);
+                    } else {
+                        console.log('No title found for the ISBN: ' + isbn);
+                    }
+                
+                    return {
+                        totalItems: totalItems,
+                        title: title
+                    };
+                });
+                
+                
+                
+                /!* return response.json().then(data => {
+                    const title = data.volumeInfo.title;
+                    //cosnt title = data.volumeInfo.title;
+                    if (title > 0) {
+                         console.log('Book data:', title);
+                    } 
+                    else  {
+                        console.log('No book found for the ISBN: ' + isbn);
+                    }
+                    return title;
+                
+                }) ;*!/
+            })
+            .then((data) => {
+                // Obsługuj dane (np. wyświetlaj je lub wykonuj inne operacje)
+                
+                
+                //console.log('Book data:', data.title);
+
+                // Display the data as a result
+            //    const resultElement = document.getElementById('result');
+             //   resultElement.innerHTML += '<br><span class="result">Zapisano ksiażke: ' + JSON.stringify(data.title) + '</span>';
+              //  resultElement.innerHTML += '<br><span class="result">Zapisano ksiażke: ' + json.stringify(data.items.volumeInfo.title)  + '</span>';
+                    if (data.title) {
+                        resultElement.innerHTML += '<br><span class="result">Zapisano książkę: ' + data.title + '</span>';
+                    } else {
+                        resultElement.innerHTML += '<br><span class="result">Nie znaleziono tytułu książki.</span>';
+                    }
+
+
+                
+            })
+            .catch((error) => {
+                // Obsłuż wszelkie błędy, które wystąpiły podczas pobierania
+                //console.error('Fetch error:', error);
+                console.log('No book found for the ISBN: ' + isbn);
+       //         return data;
+            });*/
+    }
+
+
+
+
+
+    /*  function fetchBookDataByISBN(isbn) {
+          // Replace 'https://localhost:7112' with the actual API endpoint URL
+          const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+         isbn = document.getElementById('result').value;
+         // isbn = 
+          
+          // Wyślij żądanie GET do interfejsu API
+          return fetch(apiUrl)
+              .then((response) => {
+                  // Check if the response status is OK (200)
+                  if (!response.ok) {
+                      throw new Error(`HTTP error! Status: ${response.status}`);
+                  }
+  
+                  // Parse the JSON response
+                  return response.json();
+              })
+              .then((data) => {
+                  // Handle the data (e.g., display it or perform other operations)
+                  console.log('Book data:', data);
+  
+                  // Return the data for further use
+                  return data;
+              })
+              .catch((error) => {
+                  // Handle any errors that occurred during the fetch
+                  console.error('Fetch error:', error);
+              });
+      }*/
+    
+    
+
+
+    // async function pobierzKot(){
+    //     const nrIsbn = document.getElementById('result').value;
+    //
+    //     cosnt pobierz = fetch(`https://localhost:7112/isbn/nr4/${nrIsbn}`)
+    //
+    //     const kot = await pobierz.json();
+    //     console.log(kot);
+    //
+    //
+    // }
+    
+    
+    
+    
+    
+</script>
+
 
 @if(!string.IsNullOrEmpty(ViewData["URL"] as string))
 {

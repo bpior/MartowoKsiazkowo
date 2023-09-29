@@ -106,7 +106,7 @@
 
 
     function onScanSuccess(qrCodeMessage) {
-        // Extract the ISBN number from qrCodeMessage
+        // Wyodrębnij numer ISBN z qrCodeMessage
         const isbn = qrCodeMessage.trim(); // Assuming qrCodeMessage contains only the ISBN
 
         // Display the ISBN number
@@ -118,7 +118,7 @@
     }
     
 
-    // Define a function to fetch data based on ISBN number
+    // Zdefiniuj funkcję aby pobrać dane na podstawie numeru ISBN
     function fetchBookDataByISBN(isbn) {
         // Replace 'https://localhost:7112' with the actual API endpoint URL
         const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;

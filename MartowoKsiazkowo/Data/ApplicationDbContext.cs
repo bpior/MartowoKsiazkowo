@@ -28,8 +28,7 @@ public class ApplicationDbContext : DbContext {
         //     .HasKey(l => new {l.BookId, l.UserId});
         // base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<User>().ToTable("User")
-            .HasKey(a=> a.UserId);
+        modelBuilder.Entity<User>().ToTable("User").HasKey(a=> a.UserId);
         modelBuilder.Entity<UserAddress>().ToTable("UserAddress").HasKey(a => a.UserAddressId);
 //        modelBuilder.Entity<Book>().ToTable("Book").HasKey(a=>a.BookId);
         modelBuilder.Entity<Book>().ToTable("Book").HasKey(a=>a.BookId);
