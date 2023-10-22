@@ -270,7 +270,7 @@ public class IsbnControler : ControllerBase
                    
                 //   AuthorId = new int(Random(Next(1, 1000))),
                    AutorImie = item.volumeInfo.authors[0],
-                    AutorNazwisko = item.volumeInfo.authors[1]
+                  //  AutorNazwisko = item.volumeInfo.authors[1]
                    
                };*/
                
@@ -328,7 +328,7 @@ public class IsbnControler : ControllerBase
                {
                    //   AuthorId = new int(Random(Next(1, 1000))),
                    AutorImie = item.volumeInfo.authors[0],
-                   AutorNazwisko = item.volumeInfo.authors[1]
+                  // AutorNazwisko = item.volumeInfo.authors[1]
                    
                };*/
                

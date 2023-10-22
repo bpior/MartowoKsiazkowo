@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MartowoKsiazkowo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1157ebebe3cbc02f34ffda5f109a823feb073a98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MartowoKsiazkowo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MartowoKsiazkowo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -122,7 +122,6 @@ asp-controller="" asp-action="Index"
         //handle scan error
     }
 
-  
     // function fetch( ) {
     //     document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
     // }
@@ -132,7 +131,8 @@ asp-controller="" asp-action="Index"
     html5QrcodeScanner.render(onScanSuccess, onScanError);
 
 
-
+    
+    
     function onScanSuccess(qrCodeMessage) {
         // Wyodrębnij numer ISBN z qrCodeMessage
         const isbn = qrCodeMessage.trim(); // Assuming qrCodeMessage contains only the ISBN
@@ -216,7 +216,9 @@ asp-controller="" asp-action="Index"
     // Zdefiniuj funkcję aby pobrać dane na podstawie numeru ISBN
     function fetchBookDataByISBN(isbn) {
         // Replace 'https://localhost:7112' with the actual API endpoint URL
-        const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+      //  const apiUrl = `https://localhost:7112/isbn/nr4/${isbn}`;
+        const apiUrl = `https://marten.azurewebsites.net/isbn/nr4/${isbn}`;
+        
         
          fetch(apiUrl)
                 .then(response => response.json())

@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["MartowoKsiazkowo/MartowoKsiazkowo.csproj", "MartowoKsiazkowo/"]
+COPY ["/MartowoKsiazkowo.csproj", "MartowoKsiazkowo/"]
 RUN dotnet restore "MartowoKsiazkowo/MartowoKsiazkowo.csproj"
 COPY . .
 WORKDIR "/src/MartowoKsiazkowo"
@@ -18,3 +18,6 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MartowoKsiazkowo.dll"]
+
+
+

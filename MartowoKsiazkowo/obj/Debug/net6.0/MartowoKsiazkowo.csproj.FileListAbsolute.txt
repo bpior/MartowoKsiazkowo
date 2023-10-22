@@ -609,3 +609,14 @@
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MartowoKsiazkowo.props
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets.pack.json
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/refint/MartowoKsiazkowo.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/QRCoder.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/SixLabors.ImageSharp.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/SixLabors.ImageSharp.Web.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/bin/Debug/net6.0/zxing.dll
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.sourcelink.json
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.MartowoKsiazkowo.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.build.MartowoKsiazkowo.props
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MartowoKsiazkowo.props
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MartowoKsiazkowo.props
+/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets.pack.json
