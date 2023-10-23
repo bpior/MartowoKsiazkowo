@@ -16,6 +16,8 @@ public class ApplicationDbContext : DbContext {
     public DbSet<BookInfo> BookInfo { get; set; }
     public DbSet<Author> Author { get; set; }
     public DbSet<BookUser> BookUser { get; set; }
+    public DbSet<Photo> Photo { get; set; }
+    
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

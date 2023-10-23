@@ -19,4 +19,6 @@ public class Book
     [Display(Name = "Autor")]
     public Author Author { get; set; }
     public ICollection<User> User { get; set; }
+    public byte [] Miniatura { get; set; }
+    
 }

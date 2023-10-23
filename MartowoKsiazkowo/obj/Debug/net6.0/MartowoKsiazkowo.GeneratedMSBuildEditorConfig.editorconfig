@@ -9,171 +9,171 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MartowoKsiazkowo
 build_property.RootNamespace = MartowoKsiazkowo
-build_property.ProjectDir = /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/
+build_property.ProjectDir = /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo
+build_property.MSBuildProjectDirectory = /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Areas/Identity/Pages/_ViewStart.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0luZm8vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0luZm8vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0luZm8vRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0luZm8vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookInfo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va0luZm8vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va1VzZXJzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va1VzZXJzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va1VzZXJzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va1VzZXJzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/BookUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9va1VzZXJzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Error.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Privacy.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_LoginPartial.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Skaner.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Skaner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2thbmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Create.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckFkcmVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Delete.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckFkcmVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Details.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckFkcmVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Edit.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckFkcmVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Index.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/UserAdres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlckFkcmVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/_ViewImports.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/_ViewStart.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_Layout.cshtml]
+[/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3hnzb1qh6l

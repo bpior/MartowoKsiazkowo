@@ -49,6 +49,9 @@ namespace MartowoKsiazkowo.Data.Migrations
                     b.Property<int?>("BookUserId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<byte[]>("Miniatura")
+                        .HasColumnType("BLOB");
+
                     b.Property<string>("Tytul")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -103,6 +106,23 @@ namespace MartowoKsiazkowo.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("BookUser", (string)null);
+                });
+
+            modelBuilder.Entity("MartowoKsiazkowo.Encje.Photo", b =>
+                {
+                    b.Property<int>("PhotoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("BLOB");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("PhotoId");
+
+                    b.ToTable("Photo");
                 });
 
             modelBuilder.Entity("MartowoKsiazkowo.Encje.User", b =>

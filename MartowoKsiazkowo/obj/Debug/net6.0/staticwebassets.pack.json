@@ -1,291 +1,291 @@
 {
   "Files": [
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/projectbundle/MartowoKsiazkowo.bundle.scp.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/projectbundle/MartowoKsiazkowo.bundle.scp.css",
       "PackagePath": "staticwebassets/MartowoKsiazkowo.bundle.scp.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/111.png",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/111.png",
       "PackagePath": "staticwebassets/111.png"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/css/site.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/favicon.ico",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/js/html5-qrcode.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/js/html5-qrcode.min.js",
       "PackagePath": "staticwebassets/js/html5-qrcode.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/js/site.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/script.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/script.js",
       "PackagePath": "staticwebassets/script.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.css",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.css",
       "PackagePath": "staticwebassets/style.css"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.css.map",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.css.map",
       "PackagePath": "staticwebassets/style.css.map"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.scss",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/style.scss",
       "PackagePath": "staticwebassets/style.scss"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/sw.js",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/sw.js",
       "PackagePath": "staticwebassets/sw.js"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test.html",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test.html",
       "PackagePath": "staticwebassets/test.html"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test1.html",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test1.html",
       "PackagePath": "staticwebassets/test1.html"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test2.html",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test2.html",
       "PackagePath": "staticwebassets/test2.html"
     },
     {
-      "Id": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test3.html",
+      "Id": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/wwwroot/test3.html",
       "PackagePath": "staticwebassets/test3.html"
     },
     {

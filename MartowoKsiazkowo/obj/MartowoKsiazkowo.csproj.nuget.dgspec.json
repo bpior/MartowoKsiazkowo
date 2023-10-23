@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {}
+    "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {}
   },
   "projects": {
-    "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {
+    "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
+        "projectUniqueName": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
         "projectName": "MartowoKsiazkowo",
-        "projectPath": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
-        "packagesPath": "/Users/maku/.nuget/packages/",
-        "outputPath": "/Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/",
+        "projectPath": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/MartowoKsiazkowo.csproj",
+        "packagesPath": "/home/bp/.nuget/packages/",
+        "outputPath": "/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/maku/.nuget/NuGet/NuGet.Config"
+          "/home/bp/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -115,7 +115,7 @@
               "version": "[6.0.20, 6.0.20]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
               "version": "[6.0.20, 6.0.20]"
             },
             {
@@ -131,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.7.23376.3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100-preview.7.23376.3/RuntimeIdentifierGraph.json"
         }
       }
     }

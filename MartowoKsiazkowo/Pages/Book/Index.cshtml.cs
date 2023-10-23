@@ -15,15 +15,23 @@ namespace MartowoKsiazkowo.Pages.Book
     {
         private readonly MartowoKsiazkowo.Data.ApplicationDbContext _context;
 
+        [BindProperty]
+        public IFormFile UploadedImage { get; set; } // Dodane pole do przechowywania przesłanego obrazka
+
+        
         public IndexModel(MartowoKsiazkowo.Data.ApplicationDbContext context)
         {
             _context = context;
         }
 
+        
         public IList<Encje.Book> Book { get; set; }
 
         public async Task<IActionResult> OnGetAsync(string searchString, int? bookInfoId)
         {
+            
+            
+            
             var books = from b in _context.Books
                 select b;
             if (!String.IsNullOrEmpty(searchString))
@@ -31,6 +39,31 @@ namespace MartowoKsiazkowo.Pages.Book
                 books = books.Where(s => s.Tytul.Contains(searchString));
             }
 
+            if (UploadedImage != null && UploadedImage.Length > 0)
+            {
+                using (var stream = new MemoryStream())
+                {
+                    await UploadedImage.CopyToAsync(stream);
+                    byte[] imageBytes = stream.ToArray();
+                    
+                    //imageBytes  = ImageHelper.ResizeImage(imageBytes, 150, 150);
+                    
+                    var newBook = new Encje.Book
+                    {
+                        Miniatura = imageBytes
+                    };
+
+                    _context.Books.Add(newBook);
+                    await _context.SaveChangesAsync();
+                    
+
+                    // Tutaj możesz zapisać imageBytes w bazie danych lub na dysku
+                    // Na przykład, możesz utworzyć nowy obiekt Book i przypisać mu imageBytes jako miniaturę
+                    // Następnie dodaj ten obiekt do bazy danych i zapisz zmiany.
+                }
+            }
+            
+            
             Book = await books.ToListAsync();
             return Page();
         }

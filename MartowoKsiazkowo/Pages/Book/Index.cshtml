@@ -30,6 +30,7 @@
 
 
 
+
 <table class="table">
     <thead>
         <tr>
@@ -47,22 +48,32 @@
     </thead>
     <tbody>
 @foreach (var item in Model.Book) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tytul)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookInfo.Gatunek)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Author.FullAutorName)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
-            </td>
-        </tr>
+    <tr>
+       
+        @*<td>
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.Miniatura)" alt="Miniatura"/> <!-- Wyświetlenie miniatury -->
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Tytul)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookInfo.Gatunek)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Author.FullAutorName)
+        </td>
+        <td>
+            <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
+            <a asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
+            <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
+
+            <form method="post" enctype="multipart/form-data">
+                <input type="file" name="UploadedImage"/>
+                <button type="submit">Zapisz obrazek</button>
+            </form>
+            
+        </td>
+    </tr>
 }
     </tbody>
 </table>
