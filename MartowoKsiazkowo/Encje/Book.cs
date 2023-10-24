@@ -21,4 +21,8 @@ public class Book
     public ICollection<User> User { get; set; }
     public byte [] Miniatura { get; set; }
     
+    
+    public byte[] ImageData { get; set; }
+    public string ImageMimeType { get; set; }
+    
 }
