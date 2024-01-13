@@ -95,7 +95,7 @@ public class IsbnControler : ControllerBase
         //     string uri = $"https://www.googleapis.com/books/v1/volumes?q=isbn:{data}";
      //   string uri = $"q=isbn:{data}";
 
-     string key = "AIzaSyALbXPhCbT25bqtCptzSHOlr6jMWSrXtz4";
+     string key = "**";
         
      string uri = $"https://www.googleapis.com/books/v1/volumes?q=isbn:{data}&key={key}";
         HttpResponseMessage response = await client.GetAsync(uri);
