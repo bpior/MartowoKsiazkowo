@@ -63,7 +63,6 @@
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/bundle/MartowoKsiazkowo.styles.css
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/scopedcss/projectbundle/MartowoKsiazkowo.bundle.scp.css
-/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.csproj.CopyComplete
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.dll
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/ref/MartowoKsiazkowo.dll
 /home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoKsiazkowo.pdb
@@ -620,3 +619,4 @@
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MartowoKsiazkowo.props
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MartowoKsiazkowo.props
 /Users/maku/Projects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/staticwebassets.pack.json
+/home/bp/RiderProjects/MartowoKsiazkowo/MartowoKsiazkowo/obj/Debug/net6.0/MartowoK.59815F28.Up2Date

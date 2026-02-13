@@ -49,6 +49,12 @@ namespace MartowoKsiazkowo.Data.Migrations
                     b.Property<int?>("BookUserId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("BLOB");
+
+                    b.Property<string>("ImageMimeType")
+                        .HasColumnType("TEXT");
+
                     b.Property<byte[]>("Miniatura")
                         .HasColumnType("BLOB");
 

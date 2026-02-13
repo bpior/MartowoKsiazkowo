@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AzureConnection")));
 
-
-
+    
 
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -36,6 +36,13 @@ builder.Services.AddEndpointsApiExplorer();
 
 
 builder.Services.AddScoped<IzapiszSerwis, ZapiszSerwis>();
+
+
+builder.Services.AddHttpsRedirection(options =>
+{
+    options.HttpsPort = 443;
+});
+
 
 
 builder.Services.AddRazorPages();
