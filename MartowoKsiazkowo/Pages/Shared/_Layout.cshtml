@@ -4,14 +4,20 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - MartowoKsiazkowo</title>
+    @*
+    <link rel="icon" type="image/png" sizes="16x16" href="./4.png">
+    *@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/MartowoKsiazkowo.styles.css" asp-append-version="true"/>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <nav class="navbar navbar-light navbar-expand-sm  navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #e6cbfc; ">
         <div class="container">
+            @*<a class="navbar-brand" asp-area="" asp-page="/Index">
+                <img src="~/2.png" width="90" height="90">
+            </a>*@
             <a class="navbar-brand" asp-area="" asp-page="/Index">MartowoKsiazkowo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +63,7 @@
 
 <footer class="border-top footer text-muted">
     <div class="container">
-        &copy; 2023 - MartowoKsiazkowo - <a asp-area="" asp-page="/Privacy">Wejć tu</a>
+        &copy; 2026 - MartowoKsiazkowo - <a asp-area="" asp-page="/Privacy">Wejć tu</a>
     </div>
 </footer>
 
